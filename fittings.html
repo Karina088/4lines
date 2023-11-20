@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<title>Фурнитура</title>
+</head>
+<body>
+	<div class="head-content">
+		<div class="head-main-content">
+			<div class="line-head"></div>
+			<div class="main-text">
+				<div class="main-title">
+					<h1>быстрый расчет цены</h1>
+				</div>
+				<div class="main-subtitle">
+					<div class="subtitle-text">
+						<p>Ответьте на несколько <br> вопросов и вы узнаете <br>примерную стоимость</p>
+					</div>
+					<div class="subtitle-input">
+						<input id="modal-widnow" type="submit" value="быстрый расчет цены">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal-window">
+		<div class="main-modal-window">
+			<div class="control-window">
+				<div class="control-window-end-img">
+					<img src="/img/line-furniture.webp" alt="">
+				</div>
+				<div class="everywhere-block">
+					<div class="everywhere-title">
+						<div class="everywhere-text">
+							<h1>быстрый расчет цены</h1>
+						</div>
+						<div class="everywhere-input">
+							<input class="cross" type="submit" value="">
+						</div>
+					</div>
+					<div class="go-slide">
+						<input class="arrow-left" type="submit" value=" ">
+						<input class="arrow-right" type="submit" value=" ">
+					</div>
+				</div>
+				<div class="frame-modal">
+					<div class="frame-title">
+						<span class="decor-title-num">1</span> <span class="decor-title-tir"><!-- — --></span> <p class="decor-title-text">Выберите форму кухни</p>
+					</div>
+					<div class="furniture-objects">
+						<div class="furniture-window active">
+							<div class="furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+							<div class="furniture-text"><p>угловая левая</p></div>
+						</div>
+						<div class="furniture-window active">
+							<div class="furniture-image"><img src="/img/angular-right-furniture.webp" alt=""></div>
+							<div class="furniture-text"><p>угловая правая</p></div>
+						</div>
+						<div class="furniture-window active">
+							<div class="furniture-image"><img src="/img/p-figur-furniture.webp" alt=""></div>
+							<div class="furniture-text"><p>п-образная</p></div>
+						</div>
+						<div class="furniture-window active">
+							<div class="furniture-image"><img src="/img/straight-furniture.webp" alt=""></div>
+							<div class="furniture-text"><p>прямая</p></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="frame-modal">
+					<div class="frame-control-modal">
+						<div class="frame-control-left">
+							<div class="frame-title">
+								<span class="decor-title-num">2</span> <span class="decor-title-tir"></span> <p class="decor-title-text">Выберите размер кухни</p>
+							</div>
+							<div class="size-furniture">
+								<div class="size-text">
+									<p>Введите длину кухни <br> в диапазоне от 80 до 700 см.</p>
+								</div>
+								<div class="size-input">
+									<div class="size-a"><p>а</p><input type="number" placeholder="0"><p>см</p></div>
+									<div class="size-b"><p>б</p><input type="number" placeholder="0"><p>см</p></div>
+								</div>
+								<div class="size-text-subtitle">
+									<p>Уточните, пожалуйста:</p>
+									<div class="size-input-radio">
+										<div class="form-radio"><input name="radio" type="radio" id="radio-1"><label for="radio-1"></label><p>Холодильник входит в длину «а»</p></div>
+										<div class="form-radio"><input name="radio" type="radio" id="radio-2"><label for="radio-2"></label><p>Холодильник входит в длину «b»</p></div>
+										<div class="form-radio"><input name="radio" type="radio" id="radio-3"><label for="radio-3"></label><p>Холодильник стоит отдельно</p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame-control-right">
+							<img src="/img/size-furniture-img.webp" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="frame-modal">
+					<div class="frame-title">
+						<span class="decor-title-num">3</span> <span class="decor-title-tir"></span> <p class="decor-title-text">Выберите вид шкафов</p>
+					</div>
+
+					<div class="view-furniture-block">
+						<div class="view-furniture-objects">
+							<div id="radio-block-1" class="view-furniture-window active-without-dot">
+								<div class="view-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""><div id="radio-dot-1" class="furniture-dot"></div></div>
+								<div class="view-furniture-text"><p>Без верхних шкафов</p></div>
+							</div>
+							<div id="radio-block-2" class="view-furniture-window active-without-dot">
+								<div class="view-furniture-image"><img src="/img/angular-right-furniture.webp" alt=""><div id="radio-dot-2" class="furniture-dot"></div></div>
+								<div class="view-furniture-text"><p>Верхние шкафы по A и B</p></div>
+							</div>
+							<div id="radio-block-3" class="view-furniture-window active-without-dot">
+								<div class="view-furniture-image"><img src="/img/p-figur-furniture.webp" alt=""><div id="radio-dot-3" class="furniture-dot"></div></div>
+								<div class="view-furniture-text"><p>Верхние шкафы по B</p></div>
+							</div>
+							<div id="radio-block-4" class="view-furniture-window active-without-dot">
+								<div class="view-furniture-image"><img src="/img/straight-furniture.webp" alt=""><div id="radio-dot-4" class="furniture-dot"></div></div>
+								<div class="view-furniture-text"><p>Верхние шкафы по A</p></div>
+							</div>
+						</div>
+						<div class="furniture-block-right">
+							<div class="form-radio"><input value="radio-block-1" class="radio-opacity" name="radio" type="radio" id="radio-opacity-1"><label for="radio-opacity-1"></label><p>стандартные</p></div>
+							<div class="form-radio"><input value="radio-block-2" class="radio-opacity" name="radio" type="radio" id="radio-opacity-2"><label for="radio-opacity-2"></label><p>высокие</p></div>
+							<div class="form-radio"><input value="radio-block-3" class="radio-opacity" name="radio" type="radio" id="radio-opacity-3"><label for="radio-opacity-3"></label><p>С антресолью</p></div>
+							<div class="form-radio"><input value="radio-block-4" class="radio-opacity" name="radio" type="radio" id="radio-opacity-4"><label for="radio-opacity-4"></label><p>С глубокой антресолью</p></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="frame-modal">
+					<div class="frame-title">
+						<span class="decor-title-num">4</span> <span class="decor-title-tir"></span> <p class="decor-title-text">Выберите фурнитуру</p>
+					</div>
+					<div class="select-furniture-main">
+						<div class="select-furniture-objects">
+							<div class="select-furniture-window active">
+								<div class="select-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+								<div class="select-furniture-text"><p>Эконом</p></div>
+								<div class="select-furniture-price"><span class="furniture-price-span">1000</span> руб./шт.</div>
+							</div>
+							<div class="select-furniture-window active">
+								<div class="select-furniture-image"><img src="/img/angular-right-furniture.webp" alt=""></div>
+								<div class="select-furniture-text"><p>Стандарт</p></div>
+								<div class="select-furniture-price"><span class="furniture-price-span">3000</span> руб./шт.</div>
+							</div>
+							<div class="select-furniture-window active">
+								<div class="select-furniture-image"><img src="/img/p-figur-furniture.webp" alt=""></div>
+								<div class="select-furniture-text"><p>Премиум</p></div>
+								<div class="select-furniture-price"><span class="furniture-price-span">8000</span> руб./шт.</div>
+							</div>
+						</div>
+						<div class="furniture-auto-price">
+							<div class="auto-price-furniture">
+								<p>всего ~ <span class="furniture-price-all"></span> ₽</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="frame-modal">
+					<div class="frame-title">
+						<span class="decor-title-num">5</span> <span class="decor-title-tir"></span> <p class="decor-title-text">Выберите фасад</p>
+					</div>
+
+					<div class="facade-furniture-block">
+						<div class="facade-furniture-objects">
+							<div class="facade-furniture-window active" id="radio-block-facade-1">
+								<div class="facade-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+								<div class="facade-furniture-text"><p>ЛДСП</p></div>
+								<div class="facade-furniture-price">2500 - <span class="facade-price-span">3500</span> руб./кв.м</div>
+							</div>
+							<div class="facade-furniture-window active radio-block-facade-2">
+								<div class="furniture-image"><img src="/img/angular-right-furniture.webp" alt=""></div>
+								<div class="furniture-text"><p>Пленка ПВХ</p></div>
+								<div class="facade-furniture-price"><span class="facade-price-span">8000</span> руб./кв.м</div>
+							</div>
+							<div class="facade-furniture-window active radio-block-facade-2">
+								<div class="furniture-image"><img src="/img/p-figur-furniture.webp" alt=""></div>
+								<div class="furniture-text"><p>Шпон</p></div>
+								<div class="facade-furniture-price">12000 - <span class="facade-price-span">14000</span> руб./кв.м</div>
+							</div>
+							<div class="facade-furniture-window active radio-block-facade-2">
+								<div class="furniture-image"><img src="/img/straight-furniture.webp" alt=""></div>
+								<div class="furniture-text"><p>Эмаль</p></div>
+								<div class="facade-furniture-price">12000 - <span class="facade-price-span">14000</span> руб./кв.м</div>
+							</div>
+						</div>
+						<div class="facade-furniture-block-right">
+								<div class="form-radio"><input class="radio-opacity-facade radio-opacity-facade-one" name="radio" type="radio" id="radio-8" value="radio-block-facade-1"><label for="radio-8"></label><p>Прямые</p></div>
+								<div class="form-radio"><input class="radio-opacity-facade radio-opacity-facade-two" name="radio" type="radio" id="radio-9" value="radio-block-facade-2"><label for="radio-9"></label><p>Фрезерованные</p></div>
+						</div>
+						<div class="furniture-auto-price">
+							<p>всего ~ <span class="facade-price-all"></span> ₽</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="frame-modal">
+					<div class="frame-title">
+						<span class="decor-title-num">6</span> <span class="decor-title-tir"></span> <p class="decor-title-text">Выберите столешницу</p>
+					</div>
+					<div class="countertop-furniture-main">
+						<div class="countertop-furniture-objects">
+							<div class="countertop-furniture-window active">
+								<div class="countertop-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+								<div class="countertop-furniture-text"><p>Пластик</p></div>
+								<div class="countertop-furniture-price">4000 - <span class="select-price-span-1">8000</span> руб./пог. м</div>
+							</div>
+							<div class="countertop-furniture-window active">
+								<div class="countertop-furniture-image"><img src="/img/angular-right-furniture.webp" alt=""></div>
+								<div class="countertop-furniture-text"><p>Искусственный камень</p></div>
+								<div class="countertop-furniture-price">25000 - <span class="select-price-span-2">35000</span> руб./пог. м</div>
+							</div>
+							<div class="countertop-furniture-window active">
+								<div class="countertop-furniture-image"><img src="/img/p-figur-furniture.webp" alt=""></div>
+								<div class="countertop-furniture-text"><p>чтото еще</p></div>
+								<div class="countertop-furniture-price">25000 - <span class="select-price-span-3">35000</span> руб./пог. м</div>
+							</div>
+							<div class="countertop-furniture-window active">
+								<div class="countertop-furniture-image"><img src="/img/p-figur-furniture.webp" alt=""></div>
+								<div class="countertop-furniture-text"><p>чтото еще</p></div>
+								<div class="countertop-furniture-price">25000 - <span class="select-price-span-4">35000</span> руб./пог. м</div>
+							</div>
+						</div>
+						<div class="furniture-auto-price">
+							<div class="auto-price-furniture">
+								<p>всего ~ <span class="select-price-all"></span> ₽</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="frame-modal">
+					<div class="frame-title">
+						<span class="decor-title-num">7</span> <span class="decor-title-tir"></span> <p class="decor-title-text">Выберите наполнение кухни</p>
+					</div>
+					<div class="filling-furniture">
+						<div class="filling-furniture-window active">
+							<div class="filling-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+							<div class="filling-furniture-text"><p>Выдвижная колонна</p></div>
+							<div class="filling-furniture-price">20000 - <span class="filling-price-span-1">25000</span> руб./кв.м.</div>
+						</div>
+						<div class="filling-furniture-window active">
+							<div class="filling-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+							<div class="filling-furniture-text"><p>Пенал с выдвижными ящиками</p></div>
+							<div class="filling-furniture-price">30000 - <span class="filling-price-span-2">40000</span> руб./кв.м.</div>
+						</div>
+						<div class="filling-furniture-window active">
+							<div class="filling-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+							<div class="filling-furniture-text"><p>Выдвижная бутылочница</p></div>
+							<div class="filling-furniture-price">4000 - <span class="filling-price-span-3">6000</span> руб./кв.м.</div>
+						</div>
+						<div class="filling-furniture-window active">
+							<div class="filling-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+							<div class="filling-furniture-text"><p>Сушка в нижнюю базу</p></div>
+							<div class="filling-furniture-price">6000 - <span class="filling-price-span-4">9000</span> руб./кв.м.</div>
+						</div>
+						<div class="filling-furniture-window active">
+							<div class="filling-furniture-image"><img src="/img/angular-left-furniture.webp" alt=""></div>
+							<div class="filling-furniture-text"><p>Остров</p></div>
+							<div class="filling-furniture-price">4000 - <span class="filling-price-span-5">8000</span> руб./пог. м</div>
+						</div>
+						<div class="filling-furniture-window-input">
+							<div>
+								<div class="form-radio"><input name="radio" type="radio" id="radio-10"><label for="radio-10"></label><p>холодильник встроенный</p></div>
+								<div class="form-radio"><input name="radio" type="radio" id="radio-11"><label for="radio-11"></label><p>холодильник отдельный</p></div>
+							</div>
+							<div>
+								<div class="form-radio"><input name="radio2" type="radio" id="radio-12"><label for="radio-12"></label><p>вытяжка встроенная</p></div>
+								<div class="form-radio"><input name="radio2" type="radio" id="radio-13"><label for="radio-13"></label><p>вытяжка отдельная</p></div>
+							</div>
+							<div class="furniture-auto-price-edit">
+								<p>всего ~ <span class="filling-price-all">1</span> ₽</p>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+				<div class="frame-modal">
+					<div class="everywhere-title-end">
+						<div class="everywhere-text-end">
+							<h1>быстрый расчет цены</h1>
+						</div>
+						<div class="everywhere-input-end">
+							<input class="cross" type="submit" value=" ">
+						</div>
+					</div>
+					<div class="all-price">
+						<p class="decor-title-text">примерная стоимость ~ <span>285 000</span>₽</p>
+					</div>
+
+					<form class="landing__footer__form">
+            			<div class="landing__footer__form__header">
+                			<p class="landing__footer__form__header__title">обсудим ваш проект</p>
+                			<img src="img/logo.svg" alt="Logo">
+           				 </div>
+            			<div class="landing__footer__form__content">
+                			<input id="form__input__first" type="text" placeholder="имя">
+                			<input id="form__input__second" type="text" placeholder="телефон">
+            			</div>
+            			<div class="landing__footer__form__footer">
+                			<button class="landing__footer__form__button">
+                    		<span>отправить</span>
+                			</button>
+            			</div>
+        			</form>
+					
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<script
+
+		  src="https://code.jquery.com/jquery-3.6.1.min.js"
+		  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+		  crossorigin="anonymous">
+  	
+  	</script>
+
+	<script>
+		var frame = $('.frame-modal');
+		var frame_len = $('.frame-modal').length;
+		// console.log(frame_len);
+		var current_slide = 1;
+
+		// открытие модального окна
+	  	$('#modal-widnow').click( function(){
+	  		$('.modal-window').show();
+	  		$(frame[current_slide-1]).fadeIn(700).css('display', 'block');
+	  		$('.head-content').css('filter', 'brightness(0.5)');
+	  	});
+
+	  		if (frame[0]) {
+	  			$('.arrow-left').css('visibility', 'hidden');
+	  			console.log(frame[0]);
+	  		} 
+
+
+	  	$(function(){
+			$('.arrow-left, .arrow-right').click(function(){
+				if ($(this).hasClass('arrow-right')){
+					var next_slide = ++current_slide-1;
+				} else {
+					var next_slide = --current_slide-1;
+				}
+				$(frame).css('display', 'none');
+				$(frame[next_slide]).css('display', 'block');
+				if (next_slide == 0) {
+						$('.arrow-left').css('visibility', 'hidden');
+					} else {
+						$('.arrow-left').css('visibility', 'visible');
+					}
+				if (next_slide == 7) {
+					$('.arrow-right').css('display', 'none');
+					$('.control-window-end-img').css('display', 'block');
+					$('.everywhere-title').css('display', 'none');
+					
+					// $('.everywhere-text').css('margin-left', '226px');
+					// $(frame[7]).css('margin-left', '226px');
+				} else {
+					$('.arrow-right').css('display', 'block');
+					$('.control-window-end-img').css('display', 'none');
+					$('.everywhere-title').css('display', 'flex');
+					// $('.everywhere-text').css('margin-left', '0');
+					// $(frame[7]).css('margin-left', '0');
+				}				
+			});
+		});
+
+		$('.cross').click(function(){
+			$('.modal-window').hide();
+			$('.head-content').css('filter', 'none');
+		});
+
+    	$(".radio-opacity").change(function(){
+       		$(".view-furniture-window").removeClass('active').removeClass('active-without-dot');
+        	$("#" + $(this).val()).addClass('active');
+    	});
+    	$(".view-furniture-window").on('click', function(){
+       		$(".view-furniture-window").removeClass('active').removeClass('active-without-dot');
+        	$(this).addClass('active');
+        	$('input.radio-opacity[value="'+$(this).attr('id')+'"]').prop('checked', true);
+    	});
+
+
+    	$(".select-furniture-window").on('click', function(){
+       		$(".select-furniture-window").removeClass('active').removeClass('active-without-dot');
+        	$(this).addClass('active');
+        	var price_furniture = $(this).find('.select-furniture-price > .furniture-price-span').text();
+        	$('.furniture-price-all').text(price_furniture.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+        	// console.log($(this).find('.select-furniture-price > .furniture-price-span').text());
+    	});
+
+    	$(".furniture-window").on('click', function(){
+       		$(".furniture-window").removeClass('active').removeClass('active-without-dot');
+        	$(this).addClass('active');
+    	});
+
+    	$('.radio-opacity-facade-two').change(function(){
+    		$(".facade-furniture-window").removeClass('active');
+    		// $(".facade-furniture-window").addClass('active');
+        	$("." + $(this).val()).addClass('active');
+    	});
+    	$('.radio-opacity-facade-one').change(function(){
+    		$(".facade-furniture-window").removeClass('active');
+    		$(".facade-furniture-window").addClass('active');
+    		// $("#" + $(this).val()).addClass('active');
+      //   	$("." + $(this).val()).addClass('active');
+    	});
+
+    	var cont = $(".facade-furniture-window");
+    	// $(cont).on('click', function(){
+     //    	var price_facade = $(this).find('.facade-furniture-price > .facade-price-span').text();
+    	// });
+    	 
+    	
+    	
+    	$(cont[0]).on('click', function(){
+        	$('.facade-furniture-window').addClass('active');
+        	$('#radio-9').attr('checked', false);
+        	$('#radio-8').attr('checked', true);
+        	var price_facade = $(cont).find('.facade-price-span');
+        	var total_price = 0;
+        	for (var i = 0; i < price_facade.length; i++) {
+        		var text = $(price_facade[i]).text();
+        		total_price += parseInt(text);
+        	}
+        	$('.facade-price-all').text(total_price.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+        	console.log(total_price);
+    	});
+
+    	$('.radio-block-facade-2').on('click', function(){
+    		$(cont[0]).removeClass('active');
+        	$('.facade-furniture-window').not(cont[0]).addClass('active');
+        	var price_facade = $(cont).not(cont[0]).find('.facade-price-span');
+        	var total_price = 0;
+        	for (var i = 0; i < price_facade.length; i++) {
+        		var text = $(price_facade[i]).text();
+        		total_price += parseInt(text);
+        		console.log(text);
+        		console.log(price_facade[i]);
+        	}
+        	$('.facade-price-all').text(total_price.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+        	console.log(total_price);
+
+        	$('#radio-8').attr('checked', false);
+        	$('#radio-9').attr('checked', true);
+    	});
+
+    	$(".countertop-furniture-window").on('click', function(){
+       		$(".countertop-furniture-window").removeClass('active');
+        	$(this).addClass('active');
+    	});
+
+    	$(".filling-furniture-window").on('click', function(){
+       		$(".filling-furniture-window").removeClass('active');
+        	$(this).addClass('active');
+    	});
+
+    	
+
+    	// $(".facade-furniture-window").on('click', function(){
+     //   		$(".facade-furniture-window").removeClass('active');
+     //    	$(this).addClass('active');
+     //    	$('input.radio-opacity-facade[value="radio-block-facade-2"]').prop('checked', true);
+    	// });
+
+    	// var text_len_1 = $('.furniture-price-span-1').text();
+    	// var text_len_2 = $('.furniture-price-span-2').text();
+    	// var text_len_3 = $('.furniture-price-span-3').text();
+    	// var num = (text_len_1*1) + (text_len_2*1) + (text_len_3*1);
+
+    	// $('.furniture-price-all').text(num.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+
+    	// var facade_len_1 = $('.facade-price-span-1').text();
+    	// var facade_len_2 = $('.facade-price-span-2').text();
+    	// var facade_len_3 = $('.facade-price-span-3').text();
+    	// var facade_len_4 = $('.facade-price-span-4').text();
+    	// var num_facade = (facade_len_1*1) + (facade_len_2*1) + (facade_len_3*1) + (facade_len_4*1);
+
+    	// $('.facade-price-all').text(num_facade.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+
+    	var select_len_1 = $('.select-price-span-1').text();
+    	var select_len_2 = $('.select-price-span-2').text();
+    	var select_len_3 = $('.select-price-span-3').text();
+    	var select_len_4 = $('.select-price-span-4').text();
+    	var num_select = (select_len_1*1) + (select_len_2*1) + (select_len_3*1) + (select_len_4*1);
+
+    	$('.select-price-all').text(num_select.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+    	
+    	var filling_len_1 = $('.filling-price-span-1').text();
+    	var filling_len_2 = $('.filling-price-span-2').text();
+    	var filling_len_3 = $('.filling-price-span-3').text();
+    	var filling_len_4 = $('.filling-price-span-4').text();
+    	var filling_len_5 = $('.filling-price-span-5').text();
+    	var num_filling = (filling_len_1*1) + (filling_len_2*1) + (filling_len_3*1) + (filling_len_4*1) + (filling_len_5*1);
+
+    	$('.filling-price-all').text(num_filling.toString().split("").reverse().join("").replace(/\d\d\d/g, "$& ").split("").reverse().join(""));
+    	
+		
+
+  //   	console.log(
+		// num
+		// .toString()
+  // 		.split("")
+  // 		.reverse()
+  // 		.join("")
+  // 		.replace(/\d\d\d/g, "$& ")
+  // 		.split("")
+  // 		.reverse()
+  // 		.join("")
+		// );
+
+    	// arr = Object.assign([], '' + num);
+    	// console.log(arr.map(Number));
+    	// var arer = arr.map(Number);
+    	// var ttt = (arer[0]) (arer[1]) + '';
+    	// console.log(ttt);
+    	// console.log(arer.join(''));
+
+
+
+		// $('.radio-opacity').on("click", function(e){
+  //   		var id_click = $(e.target).attr(".view-furniture-window");
+  //   		console.log(e.target);
+  //   		console.log(e);
+    		
+  //   		if (e.target) {
+  //   			$(e.target).parents(".view-furniture-window").css('opacity', '0.2');
+  //   			alert('gg');
+  //   		} else{
+  //   			$(e.target).parents(".view-furniture-window").css('opacity', '1');
+  //   			alert('eee');
+  //   		}
+
+
+  //   		console.log('класс куда кликнули = '+id_click);
+  //   		return;
+  // 		});
+
+	</script>
+</body>
+</html>
