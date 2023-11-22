@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Helvetica;
-    src: url(../font/helvetica/helvetica_cyr_oblique.ttf);
+    src: url(../fonts/helvetica/helvetica_cyr_oblique.ttf);
 }
 :root {
     --white: #FFFFFF;
