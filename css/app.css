@@ -12,6 +12,11 @@ body {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-style: normal;
+}
+
 a {
     text-decoration: none;
     color: var(--black);
@@ -248,7 +253,6 @@ a {
 
 .landing__header__hamburger span {
     margin: 0 0 0 6px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -316,7 +320,6 @@ a {
 }
 
 .landing__popup__menu__text {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 78px;
@@ -357,7 +360,6 @@ a {
 }
 
 .landing__popup__menu__canvas__content__bottom span {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -490,7 +492,7 @@ a {
 }
 
 .landing__button__text {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -501,7 +503,6 @@ a {
 }
 
 .landing__text__small {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -511,7 +512,6 @@ a {
 }
 
 .landing__text__large {
-    font-family: 'Inter';
     text-align: left;
     font-weight: 500;
     font-size: 96px;
@@ -558,11 +558,6 @@ a {
 
 .landing__card__content-middle {
     width: 788px;
-}
-
-.landing__card-title,
-.landing__card-par {
-    font-family: 'Inter', sans-serif;
 }
 
 .landing__card-title {
@@ -645,7 +640,6 @@ a {
 }
 
 .landing__about__header {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -772,7 +766,6 @@ a {
 .landing__about__description {
     margin: 45px 0 0 0;
     max-width: 285px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -783,7 +776,6 @@ a {
 }
 
 .landing__medium__text {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -799,7 +791,6 @@ a {
 }
 
 .landing__about__text {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 150px;
@@ -840,7 +831,6 @@ a {
 }
 
 .landing__about__review__card__title {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -857,7 +847,6 @@ a {
 }
 
 .landing__about__review__card__subtitle {
-    font-family: 'Inter';
     font-style: normal;
     word-wrap: break-word;
     font-weight: 300;
@@ -875,7 +864,6 @@ a {
 /* Calculate */
 
 .calculate {
-    /* background-color: var(--black); */
     background-color: #191919;
     -webkit-transition: background-color 1s ease;
     -o-transition: background-color 1s ease;
@@ -901,7 +889,6 @@ a {
 .calculate__title {
     margin: 74px 0 114px 0;
     max-width: 677px;
-    font-family: 'Inter';
     font-weight: 500;
     font-size: 80px;
     line-height: 97px;
@@ -912,7 +899,6 @@ a {
 
 .calculate__par {
     max-width: 505px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -941,7 +927,7 @@ a {
 }
 
 .landing__calculate__offer__button span {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -977,7 +963,6 @@ a {
 }
 
 .landing__footer__menu__item {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -987,7 +972,6 @@ a {
 }
 
 .landing__footer-link span {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1019,7 +1003,6 @@ a {
 
 .landing__footer__menu__copyright {
     margin: 78px 0 0 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -1052,7 +1035,6 @@ a {
 .landing__footer__form__header__title {
     margin: 0 204px 0 0;
     max-width: 222px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1073,7 +1055,7 @@ a {
 }
 
 .landing__footer__form__content input {
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -1090,7 +1072,7 @@ a {
 }
 
 .landing__input__label {
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -1116,7 +1098,7 @@ a {
 }
 
 .landing__footer__form__button span {
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1138,7 +1120,6 @@ a {
 }
 
 .landing__text-header {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -1158,8 +1139,6 @@ a {
 }
 
 .landing__goods__card__text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
@@ -1169,21 +1148,6 @@ a {
     margin: 18px 0 0 0;
 }
 
-/*
-.landing__goods__card__text:hover {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: 0.085em;
-    text-transform: uppercase;
-    color: var(--white);
-    background-color: #191919;
-    padding-top: 37px;
-    margin: 0;
-}*/
-
 .landing__goods__card__description {
     position: relative;
     top: 342px;
@@ -1191,8 +1155,6 @@ a {
     left: 0;
     right: 0;
     max-width: 156px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -1337,8 +1299,6 @@ a {
 }
 
 .landing__modal__thanks__content__footer span {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
@@ -1412,8 +1372,6 @@ a {
 }
 
 .landing__project__text__large {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 117%;
@@ -1441,8 +1399,6 @@ a {
 }
 
 .landing__project__article__title {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -1475,8 +1431,6 @@ a {
 }
 
 .landing__project__description__article__text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -1522,8 +1476,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -1562,8 +1514,6 @@ a {
 
 .marquee {
     position: relative;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 700px;
     line-height: 117%;
@@ -1640,8 +1590,6 @@ a {
 
 
 .landing__project__text-content-par {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -1668,8 +1616,6 @@ a {
 }
 
 .landing__project__about__article__text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -1726,8 +1672,6 @@ a {
 }
 
 .landing__project__aboutus__text p {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -1760,8 +1704,6 @@ a {
 }
 
 .landing__project__footer__menu__item {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -1793,8 +1735,6 @@ a {
 
 .landing__project__footer__menu__copyright {
     margin: 78px 0 0 0;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
@@ -1826,8 +1766,6 @@ a {
 .landing__project__footer__form__header__title {
     margin: 0 204px 0 0;
     max-width: 222px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -1847,7 +1785,7 @@ a {
 }
 
 .landing__project__footer__form__content input {
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -1884,7 +1822,7 @@ a {
 }
 
 .landing__project__input__label {
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -1916,8 +1854,6 @@ a {
 }
 
 .landing__project__footer__form__button span {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -1993,7 +1929,7 @@ a {
     background: #fff;
     color: #000;
     text-transform: uppercase;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', sans-serif;
     font-size: 20px;
 }
 
@@ -2728,7 +2664,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .landing__footer__form__button span {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -2834,8 +2770,6 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .swiper__head {
     margin: 16px 6px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -2844,17 +2778,8 @@ input[type="number"]::-webkit-inner-spin-button {
     color: #FFFFFF;
 }
 
-/* .swiper__head:hover,
-#headOne:hover {
-    font-size: 36px;
-    line-height: 44px;
-    -webkit-transition: all 2s ease-out;
-    -o-transition: all 2s ease-out;
-    transition: all 2s ease-out;
-} */
-
 .swiper__link {
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 17px;
@@ -2886,8 +2811,6 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .swiper__par {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -3656,8 +3579,6 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     .landing__medium__text {
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
@@ -5227,16 +5148,15 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     .calculate__title {
-        font-size: 40px;
+        font-size: 45px;
         line-height: 48px;
-        text-align: center;
+        /* text-align: center; */
         margin: 35px 0 94px 0;
     }
 
     .calculate__par {
         font-size: 14px;
         line-height: 17px;
-        /* margin: 0px 65px 0px 65px; */
         text-align: center;
     }
 
@@ -5811,8 +5731,7 @@ input[type="number"]::-webkit-inner-spin-button {
     .form__radio>p,
     .form__radio-subtitle>p,
     .form__radio_hood>p,
-    .form__radio__furniture__block
-    .form__radio_fridge>p {
+    .form__radio__furniture__block .form__radio_fridge>p {
         margin-left: 27px;
     }
 
@@ -5844,7 +5763,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .landing__project__article__title-mobile::before {
         content: 'манчестер';
-        font-family: 'Inter';
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -6050,9 +5969,6 @@ input[type="number"]::-webkit-inner-spin-button {
         max-height: fit-content;
     }
 
-    /* .landing__card-par-middle {
-        width: 302px;
-    } */
 }
 
 @media (max-width: 420px) {
@@ -6073,10 +5989,6 @@ input[type="number"]::-webkit-inner-spin-button {
     .landing__card-title {
         font-size: 38px;
     }
-
-    /* .landing__offer {
-        background: url(../img/bg_chair_mobile.jpg) no-repeat;
-    } */
 
     .facade__furniture__block,
     .select__furniture__main {
@@ -6151,17 +6063,6 @@ input[type="number"]::-webkit-inner-spin-button {
         line-height: 19px;
     }
 
-    /* 
-    .landing__footer-icon svg {
-        width: 50px;
-        height: 50px;
-    }
-
-    .landing__footer__icon svg {
-        width: 49px;
-        height: 49px;
-    } */
-
     .landing__project__description__image {
         display: none;
     }
@@ -6209,13 +6110,6 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 404px) {
-    /* .landing__card-par-middle {
-        width: 202px;
-    } */
-
-}
-
 @media (max-width: 398px) {
 
     .landing__popup__menu__text {
@@ -6230,13 +6124,8 @@ input[type="number"]::-webkit-inner-spin-button {
         width: 300px;
     }
 
-
     .landing__card-title {
         font-size: 28px;
-    }
-
-    .calculate__title {
-        font-size: 37px;
     }
 
     .calculate__par {
@@ -6309,6 +6198,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .filling__furniture__window {
         height: 224px;
+    }
+
+    .calculate__title {
+        font-size: 37px;
     }
 }
 
