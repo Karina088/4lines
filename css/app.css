@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);
-@import url(http://fonts.cdnfonts.com/css/helvetica-255);
+/* @import url(http://fonts.cdnfonts.com/css/helvetica-255); */
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/helvetica/helvetica_cyr_oblique.ttf);
+}
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -493,7 +497,6 @@ a {
 
 .landing__button__text {
     font-family: 'Helvetica', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -503,7 +506,6 @@ a {
 }
 
 .landing__text__small {
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
@@ -1035,7 +1037,6 @@ a {
 .landing__footer__form__header__title {
     margin: 0 204px 0 0;
     max-width: 222px;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -1120,7 +1121,6 @@ a {
 }
 
 .landing__text-header {
-    font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 58px;
