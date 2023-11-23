@@ -985,18 +985,18 @@ a {
     margin: 56px 0 85px 0;
 }
 
-.landing__footer__menu_media {
+.footer__menu_media {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 12px;
 }
 
-.landing__footer__menu_media a>li:first-child {
+.footer__menu_media a>li:first-child {
     margin: 0 18px 0 0;
 }
 
-.landing__footer__menu__copyright {
+.footer__menu__copyright {
     margin: 78px 0 0 0;
     font-style: normal;
     font-weight: 400;
@@ -4992,7 +4992,7 @@ input[type="number"]::-webkit-inner-spin-button {
         flex-direction: column;
     }
 
-    .landing__footer__menu {
+    .footer__menu {
         margin: 0 30px 0 30px;
     }
 
@@ -5002,7 +5002,7 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
 
-    .landing__footer__menu__copyright {
+    .footer__menu__copyright {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -5012,11 +5012,11 @@ input[type="number"]::-webkit-inner-spin-button {
         flex-direction: column;
     }
 
-    .landing__footer__menu_media a>li:first-child {
+    .footer__menu_media a>li:first-child {
         margin: 0 8px 0 0;
     }
 
-    .landing_footer__menu-content {
+    .footer__menu-content {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -5223,7 +5223,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
     .landing__header {
-        margin: auto 27px;
+        margin: auto 21px;
         padding: 22px 0 22px 0;
     }
 
@@ -5629,7 +5629,7 @@ input[type="number"]::-webkit-inner-spin-button {
         line-height: 33px;
     }
 
-    .landing__footer__menu_media {
+    .footer__menu_media {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -5644,7 +5644,7 @@ input[type="number"]::-webkit-inner-spin-button {
         order: 3;
     }
 
-    .landing__footer__menu__copyright {
+    .footer__menu__copyright {
         margin: 0;
         -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
@@ -6213,7 +6213,7 @@ input[type="number"]::-webkit-inner-spin-button {
         font-size: 42px;
     }
 
-    .landing__footer__icon svg {
+    .footer__icon svg {
         width: 37px;
         height: 37px;
     }

@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     const hamburger = document.querySelector('.landing__header__hamburger')
     const menuList = document.querySelector('.landing__header__menu')
-    const popupExitBtn = document.querySelector('.landing__popup__menu__exit__button')
+    const popupExitBtn = document.querySelector('.popup__button')
     const popupCanvas = document.querySelector('.landing__popup__menu__canvas')
     const popupCanvasLine = document.querySelector('.landing__popup__menu__canvas__line')
     const landingHeader = document.querySelector('.landing__header')
