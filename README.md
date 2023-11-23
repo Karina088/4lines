@@ -6,3 +6,6 @@
 - провалидированной формой обратной связи, 
 - сложными анимациями, 
 - системой навигации по сайту
+
+ ![Speed](https://github.com/Karina088/4lines/raw/main/github_-img/pagespeed.png)
+  
