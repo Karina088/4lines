@@ -1,4 +1,4 @@
-# [4lines](https://karina088.github.io/4lines/main.html)
+# [4lines - мебельный магазин](https://karina088.github.io/4lines/main.html)
 
 Сайт с калькулятором расчета товара, 
 - страницами проектов продукта, 
