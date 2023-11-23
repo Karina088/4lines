@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);
-@import url(http://fonts.cdnfonts.com/css/helvetica-255);
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 
 
@@ -14,7 +13,7 @@ body {
 }
 
 body {
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
 }
 
@@ -493,7 +492,6 @@ a {
 }
 
 .landing__button__text {
-    font-family: 'Helvetica', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -926,8 +924,6 @@ a {
 }
 
 .landing__calculate__offer__button span {
-    font-family: 'Helvetica', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -1053,7 +1049,7 @@ a {
 }
 
 .landing__footer__form__content input {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -1070,7 +1066,7 @@ a {
 }
 
 .landing__input__label {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -1096,7 +1092,7 @@ a {
 }
 
 .landing__footer__form__button span {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1782,7 +1778,7 @@ a {
 }
 
 .landing__project__footer__form__content input {
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -1819,7 +1815,7 @@ a {
 }
 
 .landing__project__input__label {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -1926,7 +1922,7 @@ a {
     background: #fff;
     color: #000;
     text-transform: uppercase;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
 }
 
@@ -2776,7 +2772,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .swiper__link {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 17px;
@@ -5760,7 +5756,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .landing__project__article__title-mobile::before {
         content: 'манчестер';
-        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        font-family: 'Inter', Arial, sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
