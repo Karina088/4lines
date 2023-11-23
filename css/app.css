@@ -3348,9 +3348,6 @@ input[type="number"]::-webkit-inner-spin-button {
         max-height: 280px;
     }
 
-    #headOne {
-        font-size: 15px;
-    }
 }
 
 @media (max-width: 1096px) {
@@ -4464,8 +4461,7 @@ input[type="number"]::-webkit-inner-spin-button {
         line-height: 48px;
     }
 
-    .swiper__head:hover,
-    #headOne:hover {
+    .swiper__head:hover{
         font-size: 32px;
         line-height: 42px;
     }
@@ -4624,8 +4620,7 @@ input[type="number"]::-webkit-inner-spin-button {
         max-height: 263px;
     }
 
-    .swiper__head,
-    #headOne {
+    .swiper__head{
         font-size: 14px;
     }
 
@@ -4659,8 +4654,7 @@ input[type="number"]::-webkit-inner-spin-button {
         max-height: 247px;
     }
 
-    .swiper__head:hover,
-    #headOne:hover {
+    .swiper__head:hover {
         font-size: 30px;
         line-height: 42px;
     }
@@ -4674,10 +4668,6 @@ input[type="number"]::-webkit-inner-spin-button {
     .landing__text__large span {
         font-size: 48px;
         line-height: 117%;
-    }
-
-    #headOne {
-        margin-bottom: 9px;
     }
 
     .swiper-head {
@@ -4768,13 +4758,6 @@ input[type="number"]::-webkit-inner-spin-button {
 @media (max-width: 696px) {
     .swiper-video {
         max-height: 362px;
-    }
-
-    #headOne span {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-
     }
 }
 
